@@ -1,0 +1,277 @@
+/* *{ 
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(39, 43, 51);
+}
+
+header {
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(32, 35, 41);
+    text-align: center;
+    line-height: 8rem;
+    width: 100%;
+    height: 8rem;
+}
+
+.contenedor-sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenedor-ul {
+    margin-top: 10px;
+    border: solid 1px;
+    width: 400px;
+     border-radius: 10px;
+     transition: 0.3s ease-in-out;
+}
+
+.contenedor-ul:hover{
+    border-color:  gray;
+}
+
+.item {
+    list-style-type: none;
+   margin: 7px;
+    color: gray;
+}
+
+.sobreMi {
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-ul {
+        width: 90%;
+    }
+
+}
+
+
+.contenedor-tecnologias {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+
+.contenedor-proyectos{
+    justify-content: center;
+     align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.flexbox {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    border: solid 1px;
+     margin-top: 100px; 
+}
+
+.image-proyec {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.miProyecTitle{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-porfolio {
+    padding: 16px 120px;
+    border-radius: 40px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.btn-porfolio:hover{
+    background-color: cornflowerblue;
+}
+  */
+
+
+  * {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(39, 43, 51);
+}
+
+header {
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(32, 35, 41);
+    text-align: center;
+    line-height: 8rem;
+    width: 100%;
+    height: 8rem;
+}
+
+.contenedor-sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenedor-ul {
+    margin-top: 10px;
+    border: solid 1px;
+    width: 400px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.contenedor-ul:hover{
+    border-color:  gray;
+}
+
+.item {
+    list-style-type: none;
+    margin: 7px;
+    color: gray;
+}
+
+.sobreMi {
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-ul {
+        width: 90%;
+    }
+
+    .contenedor-sobreMi {
+        margin-top: 10px;
+    }
+}
+
+.contenedor-tecnologias {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+
+.contenedor-proyectos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.flexbox {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    height: 220px;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: calc(100% - 20px);
+    }
+}
+
+.image-proyec {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.miProyecTitle{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-porfolio {
+    padding: 16px 50px;
+    border-radius: 40px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.btn-porfolio:hover{
+    background-color: cornflowerblue;
+}
+
+
+footer {
+    display: flex;
+    background-color: #5555;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ul-foter {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    list-style-type: none;
+    gap: 15px;
+   color: white;
+  
+}
+a {
+    text-decoration: none;
+    color: white;
+}
